@@ -1,0 +1,68 @@
+/* Cấu hình chung cho trang web */
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Khung chứa bảng */
+.container {
+    width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Tiêu đề */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Thiết lập chiều rộng bảng và gộp đường viền */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Thiết lập đường viền cho bảng, tiêu đề và ô dữ liệu */
+table, th, td {
+    border: 1px solid #dcdcdc;
+}
+
+/* Thiết lập chiều cao và căn chỉnh cho hàng tiêu đề (th) */
+th {
+    height: 45px;
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+/* Thiết lập chiều cao, padding và màu nền cho ô dữ liệu (td) */
+td {
+    height: 45px;
+    padding: 0 15px;
+    background-color: #fdfdfd;
+    color: #333;
+    vertical-align: middle;
+}
+
+/* Hiệu ứng đổi màu nền khi rê chuột vào hàng */
+tbody tr:hover {
+    background-color: #f1f9ff;
+}
+tbody tr:hover td {
+    background-color: #f1f9ff;
+}
